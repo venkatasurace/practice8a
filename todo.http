@@ -1,0 +1,16 @@
+GET http://localhost:3000/todos/
+
+###
+POST http://localhost:3000/create/
+
+
+###
+POST http://localhost:3000/todos/
+Content-Type: application/json
+
+{
+  "id": 22,
+  "todo": "Finalize event theme",
+  "priority": "LOW",
+  "status": "TODO"
+}
